@@ -206,46 +206,66 @@
       <div class="hero__glow"></div>
       <div class="container hero__inner">
         <div class="hero__copy">
-          <div class="hero__tagline reveal"><b>COOKIESENCODE</b> AI. Technology. Growth.</div>
+          <div class="hero__tagline reveal"><b>AI. TECHNOLOGY. GROWTH.</b> <span>Formerly Dallas Web Agency</span></div>
           <h1 class="reveal reveal-d1">Building Smarter Businesses Through <span class="accent">AI &amp; Technology.</span></h1>
           <p class="hero__text reveal reveal-d2">We help businesses and digital agencies innovate, automate and grow through intelligent AI solutions, custom software development and digital growth strategies.</p>
           <div class="hero__ctas reveal reveal-d3">
             <a class="btn btn--primary" href="contact/">Let's Discuss Your Project <svg><use href="#i-arrow"/></svg></a>
             <a class="btn btn--ghost" href="#pillars">Explore Our Services</a>
           </div>
-          <div class="hero__statement reveal reveal-d3">
-            <span><i>01</i> Think Smarter.</span>
-            <span><i>02</i> Build Better.</span>
-            <span><i>03</i> Grow Faster.</span>
-          </div>
+          <ul class="hero__pillars reveal reveal-d3">
+            <li><a href="ai-automation/"><i>01</i><span>Think Smarter.<small>AI &amp; Automation</small></span></a></li>
+            <li><a href="software-development/"><i>02</i><span>Build Better.<small>Software &amp; Development</small></span></a></li>
+            <li><a href="digital-growth/"><i>03</i><span>Grow Faster.<small>Digital Growth</small></span></a></li>
+          </ul>
         </div>
 
-        <!-- Layered visual: three stacked layers echo the logo and the three pillars -->
-        <div class="stack" aria-hidden="true">
-          <div class="stack__layer stack__layer--base"></div>
-          <div class="stack__layer stack__layer--mid"></div>
-          <div class="stack__layer stack__layer--top">
-            <div class="app-ui__bar"><i></i><i></i><i></i></div>
-            <div class="app-ui__row"><div class="app-ui__dot"></div><div class="app-ui__lines"><i></i><i></i></div></div>
-            <div class="app-ui__row"><div class="app-ui__dot"></div><div class="app-ui__lines"><i></i><i style="width:60%"></i></div></div>
-            <div class="app-ui__row"><div class="app-ui__dot"></div><div class="app-ui__lines"><i></i><i style="width:80%"></i></div></div>
-            <div class="app-ui__btn"></div>
+        <!-- Hero visual: one workspace showing all three pillars working together -->
+        <div class="hv reveal reveal-d2" aria-hidden="true">
+          <div class="hv__window">
+            <div class="hv__bar"><i></i><i></i><i></i><span>workspace.cookiesencode</span><b>Live</b></div>
+            <div class="hv__body">
+              <aside class="hv__side">
+                <img src="assets/img/cookiesencode-icon-light.png" alt="" width="40" height="40">
+                <span class="on">01</span><span>02</span><span>03</span>
+              </aside>
+              <div class="hv__main">
+                <div class="hv__head"><div><small>01 / AI &amp; Automation</small><strong>Lead assistant</strong></div><span class="hv__status"><i></i>Running</span></div>
+                <div class="hv__chat">
+                  <p class="q">Do you offer weekly office cleaning in Calgary?</p>
+                  <p class="a">Yes. I can book a free walkthrough. What size is your office?</p>
+                </div>
+                <div class="hv__flow">
+                  <span>Website chat</span><em></em><span class="on">AI agent</span><em></em><span>CRM</span><em></em><span>Sales team</span>
+                </div>
+                <div class="hv__grid">
+                  <div class="hv__tile">
+                    <small>02 / Product</small>
+                    <strong>Client portal</strong>
+                    <div class="hv__progress"><i style="width:72%"></i></div>
+                    <div class="hv__steps"><span class="done">Design</span><span class="done">Build</span><span>Launch</span></div>
+                  </div>
+                  <div class="hv__tile">
+                    <small>03 / Growth</small>
+                    <strong>Search visibility</strong>
+                    <svg viewBox="0 0 160 56" preserveAspectRatio="none"><path d="M0 50 C30 46 45 40 70 34 S115 18 160 6 V56 H0Z" fill="#FF9200" opacity=".16"/><path d="M0 50 C30 46 45 40 70 34 S115 18 160 6" fill="none" stroke="#FF9200" stroke-width="2.5" stroke-linecap="round"/></svg>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div class="chip-card chip-card--agent float">
-            <div class="chip-card__label"><span class="dot"></span> AI Agent · Live</div>
-            <strong>New lead qualified</strong>
-            <div class="flow-row"><span class="flow-node">Chat</span><span class="flow-line"></span><span class="flow-node flow-node--on">Agent</span></div>
+          <div class="hv__float hv__float--a float">
+            <span class="icon-tile"><svg><use href="#i-flow"/></svg></span>
+            <span><small>Workflow</small>Invoice → Sheets → Slack</span>
           </div>
-          <div class="chip-card chip-card--flow float float--2">
-            <div class="chip-card__label">Workflow</div>
-            <strong>Form → CRM → Follow-up</strong>
-            <div class="flow-row"><span class="flow-node">n8n</span><span class="flow-line"></span><span class="flow-node flow-node--on">LLM</span><span class="flow-line"></span><span class="flow-node">CRM</span></div>
+          <div class="hv__float hv__float--b float float--2">
+            <span class="icon-tile"><svg><use href="#i-search"/></svg></span>
+            <span><small>AI search</small>Cited in AI answers</span>
           </div>
-          <div class="chip-card chip-card--growth float float--3">
-            <div class="chip-card__label">Search visibility</div>
-            <strong>Google + AI answers</strong>
-            <div class="mini-bars"><span style="height:30%"></span><span style="height:42%"></span><span style="height:38%"></span><span style="height:55%"></span><span style="height:70%"></span><span style="height:92%"></span></div>
+          <div class="hv__float hv__float--c float float--3">
+            <span class="icon-tile"><svg><use href="#i-code"/></svg></span>
+            <span><small>Deploy</small>v2.4 shipped</span>
           </div>
         </div>
       </div>
@@ -730,10 +750,19 @@
   <!-- ================= 14 FOOTER ================= -->
   <footer class="site-footer">
     <div class="container">
-      <div class="footer__top">
+      <!-- Brand statement row -->
+      <div class="footer__hero">
         <div class="footer__brand">
-          <img src="assets/img/cookiesencode-logo-light.png" alt="CookiesEncode" width="1000" height="226" loading="lazy">
+          <a href="./" aria-label="CookiesEncode home"><img src="assets/img/cookiesencode-logo-light.png" alt="CookiesEncode" width="1000" height="226" loading="lazy"></a>
+          <p class="footer__tagline mono">AI. Technology. Growth.</p>
+        </div>
+        <p class="footer__statement"><b>Think Smarter.</b> <b class="o">Build Better.</b> <b>Grow Faster.</b></p>
+      </div>
+
+      <div class="footer__top">
+        <div class="footer__about">
           <p>CookiesEncode helps businesses, startups and digital agencies innovate, automate and grow through AI, technology and digital solutions.</p>
+          <span class="footer__chip">Formerly Dallas Web Agency</span>
           <!-- PLACEHOLDER: add real social profile URLs -->
           <div class="footer__social">
             <a href="#" aria-label="LinkedIn"><svg><use href="#i-in"/></svg></a>
@@ -741,60 +770,74 @@
             <a href="#" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a>
           </div>
         </div>
+
         <div class="footer__col">
-          <h4><span>01</span>AI &amp; Automation</h4>
+          <a class="footer__pillar" href="ai-automation/"><span>01</span>AI &amp; Automation</a>
           <ul>
-            <li><a href="ai-automation/ai-agent-development/">AI Agents</a></li>
+            <li><a href="ai-automation/ai-agent-development/">AI Agent Development</a></li>
             <li><a href="ai-automation/ai-chatbot-development/">AI Chatbots</a></li>
             <li><a href="ai-automation/ai-solutions/">Custom AI Solutions</a></li>
             <li><a href="ai-automation/business-process-automation/">Business Automation</a></li>
-            <li><a href="ai-use-cases/">AI Use Cases</a></li>
+            <li><a href="ai-automation/crm-sales-automation/">CRM &amp; Sales Automation</a></li>
           </ul>
         </div>
         <div class="footer__col">
-          <h4><span>02</span>Development</h4>
+          <a class="footer__pillar" href="software-development/"><span>02</span>Development</a>
           <ul>
-            <li><a href="software-development/web-development/">Websites</a></li>
+            <li><a href="software-development/web-development/">Website Development</a></li>
             <li><a href="software-development/saas-development/">SaaS Platforms</a></li>
             <li><a href="software-development/mobile-app-development/">Mobile Apps</a></li>
             <li><a href="software-development/ecommerce-development/">E-commerce</a></li>
-            <li><a href="software-development/custom-software-development/">Custom Software</a></li>
+            <li><a href="software-development/wordpress-development/">WordPress Development</a></li>
           </ul>
         </div>
         <div class="footer__col">
-          <h4><span>03</span>Digital Growth</h4>
+          <a class="footer__pillar" href="digital-growth/"><span>03</span>Digital Growth</a>
           <ul>
             <li><a href="digital-growth/ai-seo-geo/">AI SEO &amp; GEO</a></li>
             <li><a href="digital-growth/google-ads/">Google Ads</a></li>
+            <li><a href="digital-growth/meta-ads/">Meta Ads</a></li>
             <li><a href="digital-growth/local-seo/">Local SEO</a></li>
             <li><a href="digital-growth/agency-partnerships/">Agency Partnerships</a></li>
-            <li><a href="case-studies/">Case Studies</a></li>
           </ul>
         </div>
         <div class="footer__col">
-          <h4>Company</h4>
+          <p class="footer__pillar footer__pillar--plain">Company</p>
           <ul>
             <li><a href="about/">About Us</a></li>
+            <li><a href="case-studies/">Case Studies</a></li>
+            <li><a href="ai-use-cases/">AI Use Cases</a></li>
             <li><a href="our-process/">Our Process</a></li>
-            <li><a href="industries/">Industries</a></li>
             <li><a href="careers/">Careers</a></li>
             <li><a href="blog/">Blog</a></li>
-            <li><a href="contact/">Contact</a></li>
           </ul>
         </div>
       </div>
+
       <!-- PLACEHOLDER: confirm email address -->
       <div class="footer__contact">
-        <a href="mailto:hello@cookiesencode.com"><svg><use href="#i-mail"/></svg>hello@cookiesencode.com</a>
-        <a href="book-a-call/"><svg><use href="#i-cal"/></svg>Book a discovery call</a>
-        <span><svg><use href="#i-globe"/></svg>Serving North America, Europe &amp; Australia</span>
+        <a class="footer__card" href="mailto:hello@cookiesencode.com">
+          <span class="icon-tile"><svg><use href="#i-mail"/></svg></span>
+          <span><small>Email us</small>hello@cookiesencode.com</span>
+        </a>
+        <a class="footer__card" href="book-a-call/">
+          <span class="icon-tile"><svg><use href="#i-cal"/></svg></span>
+          <span><small>Talk to us</small>Book a discovery call</span>
+        </a>
+        <div class="footer__card">
+          <span class="icon-tile"><svg><use href="#i-globe"/></svg></span>
+          <span><small>Where we work</small>North America, Europe &amp; Australia</span>
+        </div>
       </div>
+
       <div class="footer__bottom">
-        <span>© <span id="year">2026</span> CookiesEncode. Formerly Dallas Web Agency.</span>
+        <span>© <span id="year">2026</span> CookiesEncode. All rights reserved.</span>
         <ul>
           <li><a href="privacy-policy/">Privacy Policy</a></li>
           <li><a href="terms/">Terms</a></li>
           <li><a href="faqs/">FAQs</a></li>
+          <li><a href="contact/">Contact</a></li>
+          <li><a class="footer__top-link" href="#main">Back to top ↑</a></li>
         </ul>
       </div>
     </div>
